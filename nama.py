@@ -1,0 +1,2 @@
+nama= "pri"
+print(nama)
