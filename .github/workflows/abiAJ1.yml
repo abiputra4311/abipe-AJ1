@@ -38,3 +38,7 @@ jobs:
       - name: yehaaaRun a multi-line script
         run: 
           python nama.py
+
+      - name: secret variable
+        run: echo ${{ secret.ABI_PUTRA }}
+        
