@@ -40,5 +40,6 @@ jobs:
           python nama.py
 
       - name: secret variable
-        run: echo ${{ secret.ABI_PUTRA }}
-        
+        run: echo ${{ secrets.ABI_PUTRA }}
+      
+      
